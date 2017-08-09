@@ -1,0 +1,70 @@
+PODS:
+  - FontAwesomeKit (2.2.1):
+    - FontAwesomeKit/Core (= 2.2.1)
+    - FontAwesomeKit/FontAwesome (= 2.2.1)
+    - FontAwesomeKit/FoundationIcons (= 2.2.1)
+    - FontAwesomeKit/IonIcons (= 2.2.1)
+    - FontAwesomeKit/Material (= 2.2.1)
+    - FontAwesomeKit/Octicons (= 2.2.1)
+    - FontAwesomeKit/Zocial (= 2.2.1)
+  - FontAwesomeKit/Core (2.2.1)
+  - FontAwesomeKit/FontAwesome (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Material (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Octicons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.2.1):
+    - FontAwesomeKit/Core
+  - Nimble (7.0.1)
+  - PagingMenuController (2.2.0)
+  - Quick (1.1.0)
+  - Realm (2.9.1):
+    - Realm/Headers (= 2.9.1)
+  - Realm/Headers (2.9.1)
+  - RealmSwift (2.9.1):
+    - Realm (= 2.9.1)
+  - RxBlocking (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxCocoa (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxSwift (3.6.1)
+  - RxTest (3.6.1):
+    - RxSwift (~> 3.6)
+  - SwiftDate (4.1.7)
+  - Validator (2.1.1)
+
+DEPENDENCIES:
+  - FontAwesomeKit (~> 2.2.0)
+  - Nimble
+  - PagingMenuController
+  - Quick
+  - RealmSwift
+  - RxBlocking (~> 3.0)
+  - RxCocoa (~> 3.0)
+  - RxSwift (~> 3.0)
+  - RxTest (~> 3.0)
+  - SwiftDate (~> 4.0)
+  - Validator
+
+SPEC CHECKSUMS:
+  FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
+  Nimble: 657d000e11df8aebe27cdaf9d244de7f30ed87f7
+  PagingMenuController: 6176618987bb170096664f2da097313e45ed9c31
+  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
+  Realm: f91fb43bd474c4f731a116ebf7392c75dd015920
+  RealmSwift: 207f12a4a36b696c5183c60a1c06d70234a23e56
+  RxBlocking: 4f4bd5732e8b952e54ae8a57739bcfb645de12bc
+  RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
+  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  RxTest: 1d00348a7848c91ab5bf5d197d2378aa6b2bb356
+  SwiftDate: '029be76691ee89176da3a46c7df3415b6734bc5b'
+  Validator: b1793fbfd0046097551d0edd18e2c30792d69ef5
+
+PODFILE CHECKSUM: fb09467876a79218b5e12f68a080b6c0007605a3
+
+COCOAPODS: 1.2.1
