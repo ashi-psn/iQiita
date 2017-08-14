@@ -5,15 +5,15 @@
 	<key>buildscheme</key>
 	<string>release</string>
 	<key>client_id</key>
-	<string></string>
+	<string>d6d473265c940e355b3dd497eb1bd95d34cb3175</string>
 	<key>client_secret</key>
-	<string></string>
+	<string>c7a0c6cdef364ec94e94f2bce0756f9561b6b574</string>
 	<key>authorization_endpoint</key>
-	<string></string>
+	<string>https://qiita.com/api/v2/oauth/authorize</string>
 	<key>token_endpoint</key>
-	<string></string>
+	<string>https://qiita.com/api/v2/access_tokens</string>
 	<key>registration_endpoint</key>
-	<string></string>
+	<string>https://qiita.com/api/v2/oauth/authorize</string>
 	<key>calback_url</key>
 	<string></string>
 </dict>

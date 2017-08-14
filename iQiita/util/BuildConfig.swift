@@ -14,6 +14,9 @@ class BuildConfig {
     private init(){
     }
     
+    private let baseURL = "https://qiita.com"
+    
+    // MARK: 環境依存変数取得
     func getString(key : String) -> String {
         var filePath : String
         #if DEBUG
@@ -27,5 +30,11 @@ class BuildConfig {
             fatalError("no such value for key. key : \(key)")
         }
         return value as! String
+    }
+    
+    // MARK: QiitaAPIホスト取得
+    // FIXME: 環境変数へ変える
+    func getBaseURL() -> String {
+        return baseURL
     }
 }

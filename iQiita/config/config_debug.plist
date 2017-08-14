@@ -4,17 +4,17 @@
 <dict>
 	<key>buildscheme</key>
 	<string>debug</string>
-	<key>client_id</key>
-	<string></string>
-	<key>client_secret</key>
-	<string></string>
-	<key>authorization_endpoint</key>
-	<string></string>
-	<key>token_endpoint</key>
-	<string></string>
-	<key>registration_endpoint</key>
-	<string></string>
-	<key>calback_url</key>
-	<string></string>
+    <key>client_id</key>
+    <string>d6d473265c940e355b3dd497eb1bd95d34cb3175</string>
+    <key>client_secret</key>
+    <string>c7a0c6cdef364ec94e94f2bce0756f9561b6b574</string>
+    <key>authorization_endpoint</key>
+    <string>https://qiita.com/api/v2/oauth/authorize</string>
+    <key>token_endpoint</key>
+    <string>https://qiita.com/api/v2/access_tokens</string>
+    <key>registration_endpoint</key>
+    <string>https://qiita.com/api/v2/oauth/authorize</string>
+    <key>calback_url</key>
+    <string></string>
 </dict>
 </plist>

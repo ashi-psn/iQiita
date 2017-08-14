@@ -12,11 +12,18 @@ import Nimble
 import Quick
 
 
-@testable import iQiita
-
 class iQiitaTests: QuickSpec {
     
+    var itemusecase = ItemUseCase()
+    
     override func spec(){
+        describe("アイテム取得", {
+            it("20件取得できること", closure: {
+                var result = itemusecase.getItems()
+                expect(result).notTo(beNil())
+                
+            })
+        })
         
     }
     
